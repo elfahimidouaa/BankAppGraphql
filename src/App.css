@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.gestion-page, .comptes-page, .transactions-page {
+  padding: 20px;
+}
+
+.page-title, .section-title {
+  color: orange;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.action-button {
+  background-color: #0056b3;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: orange;
+}
+
+.action-button.active {
+  background-color: orange;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
